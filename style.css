@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    height: fit-content;
+}
+
+.sturbucks_logo_container {
+    height: 130px;
+    padding: 10px 0px 0px 50px;
+    flex: 1;
+}
+
+.sturbucks_logo {
+    height: 120px;
+    width: 180px;
+}
+
+.links {
+    padding-top: 35px;
+    flex: 1;
+    display: flex;
+    gap: 80px;
+}
+
+a {
+    height: 0px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.section1 {
+    width: 100%;
+    display: flex;
+}
+
+.description_side {
+    display: flex;
+    padding: 100px 0px 0px 100px;
+    flex: 1;
+    height: 607px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.description_text {
+    width: 600px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p {
+    color: rgb(52, 49, 49);
+    margin-top: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+span {
+    color: green;
+    font-weight: 800;
+}
+
+.learn_more {
+    display: block;
+    margin: auto;
+    border: none;
+    border-radius: 20px;
+    background-color: green;
+    color: white;
+    margin-top: 60px;
+    padding: 20px 50px;
+    font-weight: 800;
+}
+
+.img_side {
+    overflow: hidden;
+    position: relative;
+    height: 607px;
+    flex: 1.2;
+}
+
+.green_cirle {
+    position: absolute;
+    right: -350px;
+    bottom: -400px;
+    width: 1000px;
+    height: 1000px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.sturbucks_coffee {
+    width: 600px;
+    position: absolute;
+    bottom: 100;
+    z-index: 2;
+    left: -200;
+}
+
+.social_media {
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 180px;
+    right: 0;
+    position: absolute;
+    text-align: center;
+}
+
+.facebook,
+.instagram {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.twitter {
+    margin-right: 20px;
+}
